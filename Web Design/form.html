@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Contact form" />
+    <title>Page Title</title>
+
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="challenge.html">The Challenge</a> |
+      <a href="solution.html">The Solution</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="form.html">Form</a>
+    </nav>
+
+    <main>
+      <div class="contact-bg">
+        <div class="contact-bg-images">
+          <img src="images/adobeUkraine.png" class="bg-slide" />
+          <img
+            src="images/0af09f63eab77dc67de5e91cb911de05.png"
+            class="bg-slide"
+          />
+          <img
+            src="images/8ba9081b63aceb140a1443c6d265ba1d.png"
+            class="bg-slide"
+          />
+          <img
+            src="images/af407612688603c0d7fab2c7627917e8.png"
+            class="bg-slide"
+          />
+        </div>
+
+        <div class="contact-content">
+          <div class="contatc-intro">
+            <h2>Get in Touch</h2>
+            <p class="contact-text">
+              If you have any questions, suggestions, or would like to learn
+              more about the IAJP, please get in touch using the form below. We
+              value your feedback and will respond as soon as possible.
+            </p>
+          </div>
+
+          <form id="contactForm">
+            <label>Name:</label><br />
+            <input type="text" id="name" required /><br /><br />
+
+            <label>Email:</label><br />
+            <input type="email" id="email" required /><br /><br />
+
+            <label>Message:</label><br />
+            <textarea id="message" required></textarea><br /><br />
+
+            <button type="submit">Send Message</button>
+          </form>
+
+          <div id="formMessage"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="java.js"></script>
+
+    <footer class="footer">
+      <p>© 2026 IAJP Project | SDG 16 Innovation Proposal</p>
+    </footer>
+  </body>
+</html>
